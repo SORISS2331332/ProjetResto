@@ -1,0 +1,12 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,600&display=swap');
+
+@import "compass/reset";
+@import "Composite/variables/variable.scss";
+@import "Composite/Predef/predef.scss";
+@import "Composite/header/header.scss";
+@import "Composite/banner/banner.scss";
+
