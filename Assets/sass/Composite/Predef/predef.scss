@@ -1,9 +1,68 @@
+*, *::before,*::after{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+h1, .h1{
+    font-size: 2.5em;
+}
+h2, .h2{
+    font-size: 2.3em;
+}
+h3, .h3{
+    font-size: 2em;
+}
+h4, .h4{
+    font-size: 1.6em;
+}
+h5, .h5{
+    font-size: 1.4em;
+}
+h6, .h6{
+    font-size: 1.2em;
+}
+.main-title{
+    font-size: 3em;
+    font-family: $sofia;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1;
+    color: $princi;
+}
+.l4-title{
+    font-family: $sofia;
+    color: $blue-color;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
 .container{
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    @media(min-width:$xs){
+        max-width: 540px;
+    }
+    @media(min-width:$sn){
+    max-width: 720px;
+    }
+    @media(min-width:$md){
+        max-width: 960px;
+    }
+    @media (min-width:$lg){
+        max-width: 1140px;
+    }
+}
+.row{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 html{
@@ -20,4 +79,44 @@ body{
     background-color: #fff;
     color: #495454;
     text-align: left;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+ul,ol,li,dl{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.fas,.fae,.fab,.fa{
+    margin: 0 .25;
+    vertical-align: middle;
+}
+.img{
+    width: 100%;
+    vertical-align: middle;
+}
+.img-rounded{
+    border-radius: 50%;
+}
+
+//predef padding
+.py-70{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.px-15{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.bg-bw{
+    background-color: $break-white;
+}
+.section-header{
+    p{color: $sec-col;}
 }

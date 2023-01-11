@@ -1,0 +1,24 @@
+#mentors{
+    .mentors-wrapper{
+        .mentors-container{
+            .mentor-box{
+                width: 25%;
+                flex: 0 0 25%;
+            }
+            .box{
+                text-align: center;
+                border-radius: .25rem;
+                margin-bottom: 2rem;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                box-shadow: 1px 1px 3px rgba($princi, .25), -1px -1px 3px rgba($princi, .25);
+            }
+            .mentor-img{
+                width: 200px;
+                padding: 1rem;
+                margin: auto;
+                border-radius: 50%;
+            }
+        }
+    }
+}

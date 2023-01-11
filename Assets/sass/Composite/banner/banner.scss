@@ -5,7 +5,7 @@
     background-position: top;
     background-repeat: no-repeat;
     text-align: center;
-    border-top: 0.5rem solid  $main-color;
+    border-top: 0.5rem solid  $princi;
     .banner-wrapper{
         width: 70%;
         margin-top: -2.5rem;
@@ -30,7 +30,7 @@
         .btn{
             display: inline-block;
             padding: .5rem 1rem;
-            background-color: $main-color;
+            background-color: $princi;
             color: #fff;
             font-size: 1.15rem;
             line-height: 1.5;
@@ -44,8 +44,8 @@
 
             &:hover{
                 background-color: transparent;
-                border-color: $main-color;
-                color: $main-color;
+                border-color: $princi;
+                color: $princi;
             }
         }
     }

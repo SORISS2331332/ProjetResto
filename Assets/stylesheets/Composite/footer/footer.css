@@ -1,26 +1,19 @@
 /*
-Error: Undefined variable: "$princi".
-        on line 8 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/header/header.scss
+Error: Undefined variable: "$break-white".
+        on line 3 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/footer/footer.scss
 
-3:     left: 0;
-4:     right: 0;
-5:     width: 100%;
-6:     height: 88px;
-7:     padding-top: 1rem;
-8:     border-top: 0.5rem solid $princi;
-9:     background-color: transparent;
-10: 
-11:     .header-container{
-12:         display: flex;
-13:         justify-content: space-between;
+1: .footer{
+2:     
+3:     background-color: $break-white;
+4:     .footer-blocks{
+5:         .footer-block{
+6:             width: 50%;
+7:             flex: 0 0 50%;
+8:         }
 
 Backtrace:
-C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/header/header.scss:8
+C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/footer/footer.scss:3
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/list_literal.rb:63:in `map'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/list_literal.rb:63:in `_perform'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
@@ -71,4 +64,4 @@ C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$princi\".\A         on line 8 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/header/header.scss\A \A 3:     left: 0;\A 4:     right: 0;\A 5:     width: 100%;\A 6:     height: 88px;\A 7:     padding-top: 1rem;\A 8:     border-top: 0.5rem solid $princi;\A 9:     background-color: transparent;\A 10: \A 11:     .header-container{\A 12:         display: flex;\A 13:         justify-content: space-between;"; }
+  content: "Error: Undefined variable: \"$break-white\".\A         on line 3 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/footer/footer.scss\A \A 1: .footer{\A 2:     \A 3:     background-color: $break-white;\A 4:     .footer-blocks{\A 5:         .footer-block{\A 6:             width: 50%;\A 7:             flex: 0 0 50%;\A 8:         }"; }
