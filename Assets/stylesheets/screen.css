@@ -329,6 +329,7 @@ header.header nav.navigation .nav-links .nav-item .nav-link {
   padding: 0.35rem 0.75rem;
   font-size: 1rem;
   font-family: "Sofia Sans Extra Condensed";
+  line-height: 2;
   color: inherit;
   font-weight: 400;
   cursor: pointer;
@@ -355,11 +356,17 @@ header.header nav.navigation .nav-links .nav-item .nav-link:hover, header.header
 header.header nav.navigation .nav-links .nav-item.submenu {
   position: relative;
 }
-@media (min-width: md) {
+header.header nav.navigation .nav-links .nav-item.submenu:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  background-color: #ec650b;
+}
+@media (max-width: 992px) {
   header.header nav.navigation .nav-links .nav-item.submenu:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
     top: 100%;
+    background-color: burlywood;
   }
 }
 header.header nav.navigation .nav-links .nav-item.submenu .dropdown-menu {
@@ -367,27 +374,25 @@ header.header nav.navigation .nav-links .nav-item.submenu .dropdown-menu {
   display: block;
   left: 0;
   top: 150%;
-  min-width: 288px;
-  padding: 50%;
+  min-width: 200px;
+  padding: 0;
   text-align: left;
   background-color: #ec650b;
   color: #eaf6ff;
   border: none;
   border-radius: 0;
   opacity: 0;
-  visibility: invisible;
+  visibility: hidden;
   transition: all .3s ease-in;
 }
 header.header nav.navigation .nav-links .nav-item.submenu a.nav-linka {
-  color: #eaf6ff;
   display: block;
   width: 100%;
   transition: color .25s ease-in;
 }
-header.header nav.navigation .nav-links .nav-item.submenu a.nav-linka:hover, header.header nav.navigation .nav-links .nav-item.submenu a.nav-linka:active {
-  color: #0a920a;
+header.header nav.navigation .nav-links .nav-item.submenu a.nav-linka:hover, header.header nav.navigation .nav-links .nav-item.submenu a.nav-linka:active, header.header nav.navigation .nav-links .nav-item.submenu a.nav-linka.active, header.header nav.navigation .nav-links .nav-item.submenu a.nav-linka.hover {
+  color: #a3dbdb;
   border-bottom-color: transparent;
-  transition: all .3s ease;
 }
 
 .banner {

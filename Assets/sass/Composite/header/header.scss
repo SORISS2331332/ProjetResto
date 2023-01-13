@@ -97,6 +97,7 @@ header.header {
                     padding: 0.35rem .75rem ;
                     font-size: 1rem;
                     font-family: "Sofia Sans Extra Condensed";
+                    line-height: 2;
                     color: inherit;
                     font-weight: 400;
                     cursor: pointer;
@@ -121,13 +122,22 @@ header.header {
             }
             .nav-item.submenu{
                 position: relative;
-                @media(min-width:md){
+
+                &:hover{
+                    .dropdown-menu{
+                    opacity: 1;
+                    visibility: visible;
+                    background-color: $princi;
+                    }
+                }
+                @media(max-width:$md){
                     
                     &:hover{
                         .dropdown-menu{
                         opacity: 1;
                         visibility: visible;
                         top: 100%;
+                        background-color: burlywood;
                         }
                     }
                 }
@@ -136,29 +146,28 @@ header.header {
                         display: block;
                         left:0;
                         top: 150%;
-                        min-width: 288px;
-                        padding: 50%;
+                        min-width: 200px;
+                        padding: 0;
                         text-align: left;
                         background-color: $princi;
                         color: $break-white;
                         border: none;
                         border-radius: 0;
                         opacity: 0;
-                        visibility: invisible;
+                        visibility: hidden;
                         transition: all .3s ease-in;
                 }
                 a.nav-linka{
-                            color: #eaf6ff;
-                            display: block;
-                            width: 100%;
-                            transition: color .25s ease-in;
-                            &:hover,&:active{
-                            color: #0a920a;
-                            border-bottom-color: transparent;
-                            transition: all .3s ease;
-                            }
+                    display: block;
+                    width: 100%;
+                    transition: color .25s ease-in;
+                    &:hover,&:active,&.active,&.hover{
+                        color: $sec-col;
+                        border-bottom-color: transparent;
+                    }
+                }
                 }
             }
         }
     }
-}
+
