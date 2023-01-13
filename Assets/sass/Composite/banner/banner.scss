@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     text-align: center;
     border-top: 0.5rem solid  $princi;
+    
     .banner-wrapper{
         width: 70%;
         margin-top: -2.5rem;
@@ -19,6 +20,12 @@
             margin-bottom: 2rem;
             color: #00dafd;
             line-height: 2;
+            @media(max-width:$md){
+                margin-top: 2rem;
+                font-size: 2em;
+                line-height: 1.2;
+                margin-bottom: 1rem;
+            }
         }
         p{
             color: #fff;

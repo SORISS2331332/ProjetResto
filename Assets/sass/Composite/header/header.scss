@@ -7,83 +7,158 @@ header.header {
     padding-top: 1rem;
     border-top: 0.5rem solid $princi;
     background-color: transparent;
-
+    
     .header-container{
         display: flex;
         justify-content: space-between;
         align-items: center ;
         color: #eaf6ff;
     }
-    .logo {
-        max-width: 150px;
+    @media (max-width:$md){
+        &.show{
+            .navigation{
+                transform: translateX(0);
+                visibility: visible;
+            }
+        }  
     }
+    .logo {
+        @media(max-width:$md){
+            position: absolute;
+            left: 20px;
+            top: 5px;
+        }
+        img{
+            max-width: 150px;
+        }
+    }
+    .hamburger{
+        display: none;
+        @media(max-width:$md){
+            display: block;
+            position: absolute;
+            font-size: 2rem;
+            color: $princi;
+            right: 20px;
+            top: 10px;
+            padding: 0 .5rem;
+            border-radius: .25rem;
+            transition: all .3s ease;
 
+            &:hover{
+                color: transparentize($princi, .75);
+                border-color: transparentize($princi, .65);
+            }
+            i{
+                vertical-align: initial;
+            }
+        }
+    }
     nav.navigation{
+        @media(max-width:$md){
+            display: block;
+            position: absolute;
+            top: 80px;
+            left: 0;
+            width: 100%;
+            height: 500px;
+            background-color: transparentize($black, .25);
+            visibility: hidden;
+            transform: translateX(-100%);
+            transition: transform .5s ease, visibility .5s ease;
+        }
         .nav-links{
             display: flex;
             justify-content: flex-end;
             align-items: center;
             min-width: 50%;
-            
-        }
-        .nav-item{
-            margin-left: 1rem;
-            list-style-type: none;
-        }
-        .nav-link{
-            padding: 0.35rem .75rem ;
-            font-size: 1rem;
-            font-family: "Sofia Sans Extra Condensed";
-            color: inherit;
-            font-weight: 400;
-            cursor: pointer;
-            text-decoration: none;
-            border-bottom: 1px solid transparent;
-            
-            &:hover, &:active, &.active {
-                color: $princi;
-                border-bottom-color: $princi;
-                transition: all .3s ease;
-            }
-        
-        }
-        .nav-item.submenu{
-            position: relative;
-            &:hover{
-                .dropdown-menu{
-                    opacity: 1;
-                    visibility: visible;
-                    top: 100%;
-                }
-            }
-            .dropdown-menu{
-                position: absolute;
+            @media(max-width:$md){
                 display: block;
-                left:0;
-                top: 150%;
-                min-width: 288px;
-                padding: 50%;
-                text-align: left;
+                max-width: 75%;
+                width: 400px;
+                height: 100%;
+                margin-top: 0;
+                margin-left: 0;
+                padding-left: 4rem;
+                padding-top: 3rem;
+                padding-bottom: 3rem;
                 background-color: $princi;
-                color: $break-white;
-                border: none;
-                border-radius: 0;
-                opacity: 0;
-                visibility: invisible;
-                transition: all .3s ease-in;
+                color: $white;
+            }
+
+            .nav-item{
+                margin-left: 1rem;
+                list-style-type: none;
+                @media(max-width:$md){
+                    margin-bottom: 1rem;
                 }
-                a.nav-linka{
-                    color: #eaf6ff;
-                    display: block;
-                    width: 100%;
-                    transition: color .25s ease-in;
-                    &:hover,&:active{
-                        color: #0a920a;
-                        border-bottom-color: transparent;
-                        transition: all .3s ease;
+
+                .nav-link{
+                    padding: 0.35rem .75rem ;
+                    font-size: 1rem;
+                    font-family: "Sofia Sans Extra Condensed";
+                    color: inherit;
+                    font-weight: 400;
+                    cursor: pointer;
+                    text-decoration: none;
+                    border-bottom: 1px solid transparent;
+                    transition: all .3s ease;
+
+                    @media(max-width:$md){
+                        padding: 0.5rem 1rem;
+                        color:$sec-col;
+                    }
+                    &:hover, &:active, &.active, &.hover {
+                        color: $princi;
+                        border-bottom-color: $princi;
+                        @media(max-width: $md){
+                            color: $break-white;
+                            border-bottom-color: $break-white;
+                        }
                     }
                 }
-               
+                
+            }
+            .nav-item.submenu{
+                position: relative;
+                @media(min-width:md){
+                    
+                    &:hover{
+                        .dropdown-menu{
+                        opacity: 1;
+                        visibility: visible;
+                        top: 100%;
+                        }
+                    }
+                }
+                .dropdown-menu{
+                        position: absolute;
+                        display: block;
+                        left:0;
+                        top: 150%;
+                        min-width: 288px;
+                        padding: 50%;
+                        text-align: left;
+                        background-color: $princi;
+                        color: $break-white;
+                        border: none;
+                        border-radius: 0;
+                        opacity: 0;
+                        visibility: invisible;
+                        transition: all .3s ease-in;
+                }
+                a.nav-linka{
+                            color: #eaf6ff;
+                            display: block;
+                            width: 100%;
+                            transition: color .25s ease-in;
+                            &:hover,&:active{
+                            color: #0a920a;
+                            border-bottom-color: transparent;
+                            transition: all .3s ease;
+                            }
+                }
+            }
         }
     }
 }

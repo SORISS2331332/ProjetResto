@@ -98,11 +98,13 @@ ul,ol,li,dl{
     vertical-align: middle;
 }
 .img{
+    height: 100%;
     width: 100%;
     vertical-align: middle;
 }
 .img-rounded{
     border-radius: 50%;
+
 }
 
 //predef padding
@@ -110,12 +112,27 @@ ul,ol,li,dl{
     padding-top: 70px;
     padding-bottom: 70px;
 }
+.btn{
+    display: inline-block;
+    padding: .5rem 1rem;
+    background-color: $princi;
+    color: #fff;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    outline: none;
+    user-select: none;
+    text-decoration: none;}
 .px-15{
     padding-left: 15px;
     padding-right: 15px;
 }
 .bg-bw{
     background-color: $break-white;
+    padding-top: 70px;
+    margin-top: 20px;
 }
 .section-header{
     p{color: $sec-col;}

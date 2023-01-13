@@ -1,5 +1,12 @@
 .footer{
-    
+    height: auto;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    padding: 10px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
     background-color: $break-white;
     .footer-blocks{
         .footer-block{

@@ -10,9 +10,9 @@ Error: Undefined variable: "$princi".
 14:                 box-shadow: 1px 1px 3px rgba($princi, .25), -1px -1px 3px rgba($princi, .25);
 15:             }
 16:             .mentor-img{
-17:                 width: 200px;
-18:                 padding: 1rem;
-19:                 margin: auto;
+17:                 width: 100%;
+18:                 height: 100%;
+19:                 padding: 1rem;
 
 Backtrace:
 C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/mentors/mentor.scss:14
@@ -116,4 +116,4 @@ C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$princi\".\A         on line 14 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/mentors/mentor.scss\A \A 9:                 text-align: center;\A 10:                 border-radius: .25rem;\A 11:                 margin-bottom: 2rem;\A 12:                 padding-top: 1rem;\A 13:                 padding-bottom: 1rem;\A 14:                 box-shadow: 1px 1px 3px rgba($princi, .25), -1px -1px 3px rgba($princi, .25);\A 15:             }\A 16:             .mentor-img{\A 17:                 width: 200px;\A 18:                 padding: 1rem;\A 19:                 margin: auto;"; }
+  content: "Error: Undefined variable: \"$princi\".\A         on line 14 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/mentors/mentor.scss\A \A 9:                 text-align: center;\A 10:                 border-radius: .25rem;\A 11:                 margin-bottom: 2rem;\A 12:                 padding-top: 1rem;\A 13:                 padding-bottom: 1rem;\A 14:                 box-shadow: 1px 1px 3px rgba($princi, .25), -1px -1px 3px rgba($princi, .25);\A 15:             }\A 16:             .mentor-img{\A 17:                 width: 100%;\A 18:                 height: 100%;\A 19:                 padding: 1rem;"; }

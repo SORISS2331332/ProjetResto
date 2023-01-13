@@ -9,7 +9,7 @@ Error: Undefined variable: "$princi".
 7:     padding-top: 1rem;
 8:     border-top: 0.5rem solid $princi;
 9:     background-color: transparent;
-10: 
+10:     
 11:     .header-container{
 12:         display: flex;
 13:         justify-content: space-between;
@@ -71,4 +71,4 @@ C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$princi\".\A         on line 8 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/header/header.scss\A \A 3:     left: 0;\A 4:     right: 0;\A 5:     width: 100%;\A 6:     height: 88px;\A 7:     padding-top: 1rem;\A 8:     border-top: 0.5rem solid $princi;\A 9:     background-color: transparent;\A 10: \A 11:     .header-container{\A 12:         display: flex;\A 13:         justify-content: space-between;"; }
+  content: "Error: Undefined variable: \"$princi\".\A         on line 8 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/header/header.scss\A \A 3:     left: 0;\A 4:     right: 0;\A 5:     width: 100%;\A 6:     height: 88px;\A 7:     padding-top: 1rem;\A 8:     border-top: 0.5rem solid $princi;\A 9:     background-color: transparent;\A 10:     \A 11:     .header-container{\A 12:         display: flex;\A 13:         justify-content: space-between;"; }

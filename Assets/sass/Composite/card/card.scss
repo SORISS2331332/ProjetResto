@@ -1,7 +1,7 @@
-.card{
+.carda{
     .card-wrapper{
         display: flex;
-
+        
         article{
             margin-right: 1rem;
             padding: 0 1rem 0 1.5rem;
@@ -45,5 +45,21 @@
                 }
             }
         }
+    @media(max-width:$md){
+        
+        flex-flow: column;
+        article{
+            margin-bottom: 1rem;
+            padding-bottom: 2rem;
+            border-right-color: transparent;
+            border-bottom-color: transparentize($blue-color,.25);
+            &:last-child{
+                border-bottom-color: transparent;
+            }
+            h4{
+                max-width: 100%;
+            }
+        }
+    }
     }
 }
