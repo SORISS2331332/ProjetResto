@@ -155,7 +155,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.5;
-  background-color: #fff;
+  background-color: #ece7e7;
   color: #495454;
   text-align: left;
 }
@@ -226,12 +226,16 @@ ul, ol, li, dl {
   color: #a3dbdb;
 }
 
+.pt-120 {
+  padding-top: 200px;
+}
+
 header.header {
   position: absolute;
   left: 0;
   right: 0;
   width: 100%;
-  height: 88px;
+  height: 80px;
   padding-top: 1rem;
   border-top: 0.5rem solid #ec650b;
   background-color: transparent;
@@ -240,7 +244,6 @@ header.header .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #eaf6ff;
 }
 @media (max-width: 992px) {
   header.header.show .navigation {
@@ -393,6 +396,10 @@ header.header nav.navigation .nav-links .nav-item.submenu a.nav-linka {
 header.header nav.navigation .nav-links .nav-item.submenu a.nav-linka:hover, header.header nav.navigation .nav-links .nav-item.submenu a.nav-linka:active, header.header nav.navigation .nav-links .nav-item.submenu a.nav-linka.active, header.header nav.navigation .nav-links .nav-item.submenu a.nav-linka.hover {
   color: #a3dbdb;
   border-bottom-color: transparent;
+}
+
+.header.light-header {
+  color: #ec650b;
 }
 
 .banner {
@@ -581,6 +588,65 @@ header.header nav.navigation .nav-links .nav-item.submenu a.nav-linka:hover, hea
   width: 100%;
   height: 50%;
   display: flex;
+}
+
+.blog-intro {
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+.blog-category {
+  margin-bottom: 500px;
+}
+.blog-category .blog-wrappper {
+  justify-content: space-around;
+  align-items: center;
+}
+.blog-category .category-post {
+  position: relative;
+  width: 33%;
+  flex: 0 0 30%;
+  text-align: center;
+  cursor: pointer;
+}
+.blog-category .category-post:hover .category-details {
+  background-color: rgba(236, 101, 11, 0.65);
+}
+.blog-category .category-post .category-details {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgba(25, 25, 32, 0.65);
+  color: #fff;
+  transition: all .3s ease;
+}
+.blog-category .category-post .category-details h5 {
+  position: relative;
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #fff;
+}
+.blog-category .category-post .category-details .border-line {
+  margin: 10px 0;
+  width: 100%;
+  height: 1px;
+  background: #eaf6ff;
+}
+.blog-category .category-post .category-details p {
+  margin-bottom: 0;
+  font-size: 1.1em;
+  line-height: 2;
+  font-weight: 400;
 }
 
 .footer {

@@ -11,7 +11,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="header" id="header">
+    <!--Header-->
+    <header class="header light-header" id="header">
         <div class="container">
             <div class="header-container">
                 <a href="#" class="logo"><img src=".//Assets/imgs/img1.webp" alt="Le logo" class="logo"></a>
@@ -21,17 +22,67 @@
                         <li class="nav-item submenu">
                             <a href="" class="nav-link">Blog <i class="fas fa-comments"></i></a>
                             <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="blog.html" class="nav-link ">Blog  <i class="fas fa-comment"></i></a></li>
-                                <li class="nav-item"><a href="#" class="nav-link ">Blog single <i class="fas fa-newspaper"></i></a></li>
+                                <li class="nav-item"><a href="blog.html" class="nav-linka active">Blog  <i class="fas fa-comment"></i></a></li>
+                                <li class="nav-item"><a href="#" class="nav-linka ">Blog single <i class="fas fa-newspaper"></i></a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a href="" class="nav-link">Contacts <i class="fas fa-envelope"></i></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contacts <i class="fas fa-envelope"></i></a></li>
                     </ul>
                 </nav>
                 <a href="#" class="hamburger" id="hamburger"><i class="fas fa-bars"></i></a>
             </div>
         </div>
-    </header>
+    </header><!--End header-->
+    <!--Introduction-->
+    <section class="blog-intro pt-120" id="blog-intro">
+        <div class="container">
+            <div class="intro">
+                <h1 class="main-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, rerum!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus error animi obcaecati. Nam, alias dolore. Doloribus perferendis nihil ut nobis quod cum esse dignissimos quia quo alias sunt excepturi, animi rerum harum sed repellendus architecto praesentium maiores facilis? Nihil natus dicta fugiat. Expedita necessitatibus sit ducimus maiores, ex blanditiis impedit reiciendis magni ipsam dolore ullam dolores nam velit, excepturi, libero quasi. Ex, rerum impedit nostrum repellat provident, voluptatum est maiores fugiat recusandae delectus quam odit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto commodi nobis facere enim eaque, eos, doloribus nulla, rem ullam et autem tenetur esse perspiciatis laudantium.</p>
+            </div>
+        </div>
+    </section><!--End of introduction-->
+    <!--Category-->
+    <section class="blog-category py-70" id="blog-category">
+        <div class="container">
+            <div class="category-wrapper row">
+                <div class="category-post px-15">
+                    <img src="Assets/imgs/img11.webp" alt="Un post" class="img">
+                    <div class="category-details">
+                        <div class="category-text">
+                            <a href="#"><h5>lorem ipsum dss</h5></a>
+                            <div class="border-line"></div>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+                </div><!--Post1-->
+                
+                <div class="category-post px-15">
+                    <img src="Assets/imgs/img11.webp" alt="Un post" class="img">
+                    <div class="category-details">
+                        <div class="category-text">
+                            <a href="#"><h5>lorem ipsum dss</h5></a>
+                            <div class="border-line"></div>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+                </div><!--Post2-->
+                
+                <div class="category-post px-15">
+                    <img src="Assets/imgs/img11.webp" alt="Un post" class="img">
+                    <div class="category-details">
+                        <div class="category-text">
+                            <a href="#"><h5>lorem ipsum dss</h5></a>
+                            <div class="border-line"></div>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+                </div><!--Post3-->
+            </div>
+        </div>
+    </section><!--End of category-->
+    <!--Footer-->
     <footer class="footer  py-70 bg-bw" id="footer">
         <div class="container">
             <div class="footer-blocks row">
@@ -55,7 +106,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer><!--End of footer-->
 
     <!--Java Script-->
     <script type="text/javascript" src="Assets/js/script.js"></script>

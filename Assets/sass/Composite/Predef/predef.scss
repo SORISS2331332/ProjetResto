@@ -76,7 +76,7 @@ body{
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
-    background-color: #fff;
+    background-color: rgb(236, 231, 231);
     color: #495454;
     text-align: left;
 }
@@ -136,4 +136,7 @@ ul,ol,li,dl{
 }
 .section-header{
     p{color: $sec-col;}
+}
+.pt-120{
+    padding-top: 200px;
 }
