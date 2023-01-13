@@ -4,6 +4,18 @@
             .mentor-box{
                 width: 25%;
                 flex: 0 0 25%;
+                @media(max-width:$md){
+                    width: 50%;
+                    flex: 0 0 50%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                @media(max-width:$sn){
+                    width: 90%;
+                    flex: 0 0 90%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
             }
             .box{
                 text-align: center;
