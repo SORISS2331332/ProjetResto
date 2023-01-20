@@ -1,0 +1,42 @@
+.c-form{
+    width: 67%;
+    flex: 0 0 67%;
+
+    @media(max-width:$md){
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    .left-form, .right-form{
+        width: 50%;
+        flex: 0 0 50%;
+
+        @media(max-width: $sn){
+            width: 100%;
+            flex: 0 0 100%;
+        }
+    }
+    .form-control{
+        width: 100%;
+        padding: .375rem 1rem;
+        font-size: 13px;
+        color: #999999;
+        border: 1px solid #f7f7f7;
+        transition: box-shadow .25s ease;
+
+        &:hover,&:focus{
+            border-color: transparentize($color: $princi, $amount: 0.75);
+        }
+        &:focus{
+            box-shadow: 1px 1px 3px transparentize($color: $princi, $amount: 0.4);
+        }
+    }
+
+    textarea.form-control{
+        height: 150px;
+        resize: none;
+    }
+    .button-col{
+        width: 100%;
+        text-align: right;
+    }
+}

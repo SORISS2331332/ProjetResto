@@ -1,28 +1,35 @@
 /*
-Error: Undefined variable: "$princi".
-        on line 8 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/banner/banner.scss
+Error: Undefined variable: "$font-color".
+        on line 26 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/blog/comment-form.scss
 
-3:     background: linear-gradient(to bottom, rgba(#000, .75) 75%, rgba(#fff, .4) ), url("../imgs/banner/img2.webp") no-repeat top;
-4:     background: cover;
-5:     background-position: top;
-6:     background-repeat: no-repeat;
-7:     text-align: center;
-8:     border-top: 0.5rem solid  $princi;
-9: 
-10:     &.single-banner{
-11:         background: linear-gradient(to bottom, rgba(#000, .75) 75%, rgba(#fff, .4) ), url("../imgs/ima5.webp") no-repeat center;
-12:         height: 200px;
-13:         -webkit-background-size:cover;
+21: 
+22:     .form-control{
+23:         width: 100%;
+24:         padding: 8px 20px;
+25:         font-size: 14px;
+26:         color: $font-color;
+27:         background-color: $white;
+28:         border: 1px solid transparent;
+29:         transition: .25s ease;
+30: 
+31:         &:hover, &:focus{
 
 Backtrace:
-C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/banner/banner.scss:8
+C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/blog/comment-form.scss:26
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/list_literal.rb:63:in `map'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/list_literal.rb:63:in `_perform'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
@@ -71,4 +78,4 @@ C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$princi\".\A         on line 8 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/banner/banner.scss\A \A 3:     background: linear-gradient(to bottom, rgba(#000, .75) 75%, rgba(#fff, .4) ), url(\"../imgs/banner/img2.webp\") no-repeat top;\A 4:     background: cover;\A 5:     background-position: top;\A 6:     background-repeat: no-repeat;\A 7:     text-align: center;\A 8:     border-top: 0.5rem solid  $princi;\A 9: \A 10:     &.single-banner{\A 11:         background: linear-gradient(to bottom, rgba(#000, .75) 75%, rgba(#fff, .4) ), url(\"../imgs/ima5.webp\") no-repeat center;\A 12:         height: 200px;\A 13:         -webkit-background-size:cover;"; }
+  content: "Error: Undefined variable: \"$font-color\".\A         on line 26 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/blog/comment-form.scss\A \A 21: \A 22:     .form-control{\A 23:         width: 100%;\A 24:         padding: 8px 20px;\A 25:         font-size: 14px;\A 26:         color: $font-color;\A 27:         background-color: $white;\A 28:         border: 1px solid transparent;\A 29:         transition: .25s ease;\A 30: \A 31:         &:hover, &:focus{"; }

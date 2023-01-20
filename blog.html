@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="./Assets/stylesheets/screen.css">
     <link rel="icon" href="Assets/imgs/img10.ico">
     <title>Mon premier projet</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -20,13 +19,13 @@
                     <ul class="nav-links">
                         <li class="nav-item"><a href="index.html" class="nav-link ">Accueil <i class="fas fa-home"></i></a></li>
                         <li class="nav-item submenu">
-                            <a href="" class="nav-link">Blog <i class="fas fa-comments"></i></a>
+                            <a href="" class="nav-link active">Blog <i class="fas fa-comments"></i></a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item"><a href="blog.html" class="nav-linka active">Blog  <i class="fas fa-comment"></i></a></li>
-                                <li class="nav-item"><a href="#" class="nav-linka ">Blog single <i class="fas fa-newspaper"></i></a></li>
+                                <li class="nav-item"><a href="single.html" class="nav-linka ">Blog single <i class="fas fa-newspaper"></i></a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a href="#" class="nav-link">Contacts <i class="fas fa-envelope"></i></a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contacts <i class="fas fa-envelope"></i></a></li>
                     </ul>
                 </nav>
                 <a href="#" class="hamburger" id="hamburger"><i class="fas fa-bars"></i></a>
@@ -82,6 +81,141 @@
             </div>
         </div>
     </section><!--End of category-->
+    <!--Blog Area-->
+    <section id="blog-area" class="blog-area py-70">
+        <div class="container">
+            <div class="area-wrapper row">
+                <div class="blog-left-side px-15"><!--INFOS SUR L'AUTEUR-->
+                    <article class="blog-item row">
+                        <div class="blog-info px-15">
+                            <div class="post-tag">
+                                <a class="active" href="#">Lorem, ipsum.</a>
+                                <a href="#">Lorem, ipsum.</a>
+                                <a href="#">Lorem, ipsum.</a>
+                                <a href="#">Lorem, ipsum.</a>
+                            </div>
+                            <ul class="blog-meta">
+                                <li class="Auteur"><a href="#">InfoTech SOMIK<i class="fas fa-user"></i></a></li>
+                                <li class="date"><a href="#">13 Janvier 2023<i class="fas fa-calendar"></i></a></li>
+                                <li class="consulted"><a href="#">Consulte chaque 5min<i class="fas fa-eye"></i></a></li>
+                                <li class="comments"><a href="#">200 commentaires<i class="fas fa-comment"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="blog-post px-15">
+                            <img src="Assets/imgs/img3.webp" alt="" class="img gg">
+                            <div class="blog-details">
+                                <a href="#"><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2></a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit, excepturi cum facilis non dolor distinctio. Rerum ut voluptatum perferendis accusamus repellendus eum facere minus at, obcaecati fuga reprehenderit. Aliquid.</p>
+                                <a href="#" class="btn">Lire l'article</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-item row">
+                        <div class="blog-info px-15">
+                            <div class="post-tag">
+                                <a class="active" href="#">Lorem, ipsum.</a>
+                                <a href="#">Lorem, ipsum.</a>
+                                <a href="#">Lorem, ipsum.</a>
+                                <a href="#">Lorem, ipsum.</a>
+                            </div>
+                            <ul class="blog-meta">
+                                <li class="Auteur"><a href="#">InfoTech SOMIK<i class="fas fa-user"></i></a></li>
+                                <li class="date"><a href="#">13 Janvier 2023<i class="fas fa-calendar"></i></a></li>
+                                <li class="consulted"><a href="#">Consulte chaque 5min<i class="fas fa-eye"></i></a></li>
+                                <li class="comments"><a href="#">200 commentaires<i class="fas fa-comment"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="blog-post px-15">
+                            <img src="Assets/imgs/ima5.webp" alt="" class="img gg">
+                            <div class="blog-details">
+                                <a href="#"><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2></a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit, excepturi cum facilis non dolor distinctio. Rerum ut voluptatum perferendis accusamus repellendus eum facere minus at, obcaecati fuga reprehenderit. Aliquid.</p>
+                                <a href="#" class="btn">Lire l'article</a>
+                            </div>
+                        </div>
+                    </article>
+                    <nav class="blog-pagination"><!--La pagination-->
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a href="#" class="page-link"><span><i class="fas fa-angle-double-left"></i></span></a>
+                            </li>
+                            <li class="page-item"><a href="#" class="page-link active">01</a></li>
+                            <li class="page-item"><a href="#" class="page-link">02</a></li>
+                            <li class="page-item"><a href="#" class="page-link">03</a></li>
+                            <li class="page-item"><a href="#" class="page-link">04</a></li>
+                            <li class="page-item"><a href="#" class="page-link">05</a></li>
+                            <li class="page-item">
+                                <a href="#" class="page-link disabled"><span><i class="fas fa-angle-double-right "></i></span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div><!--FIN INFOS SUR L'AUTEUR-->
+                
+                <div class="blog-right-side px-15">
+                    <aside class="single-sidebar-widget search-widget">
+                        <div class="input-group">
+                            <input type="text" name="" id="" class="form-control" placeholder="Rechercher articles">
+                            <span class="input-group-btn">
+                                <button class="btn btn-widget" type="button"><i class="fas fa-search"></i></button>
+                            </span>
+                        </div>
+                        <div class="br"></div>
+                    </aside> 
+
+                    <aside class="single-sidebar-widget author-widget">
+                        <img src="assets/imgs/img11.webp" alt="" class="author-img img-rounded">
+                        <h4>InfoTech SOMIK</h4>
+                        <p>Bloggueur</p>
+                        <div class="social-icon">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam saepe facilis unde repellendus eligendi vitae? Enim esse rerum quibusdam, omnis dignissimos provident et ea voluptates corporis eligendi laborum aliquid ad.</p>
+                        <div class="br"></div>
+                    </aside>
+
+                    <aside class="single-sidebar-widget newsletter-widget t-center fw-300">
+                        <h4 class="widget-title">Newsletter</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero ex nostrum repellat! In, ratione saepe! Quisquam unde quo quae impedit doloremque eum officia aperiam non.</p>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <input type="text" name="" id="" class="form-control" placeholder="Entrez votre mail">
+                            </div>
+                            <a href="#" class="bbtns">S'inscrire</a>
+                        </div>
+                        <p class="text-bottom"><small>Vous pouvez desister a tout moment</small></p>
+                        <div class="br"></div>
+                    </aside>
+
+                    <aside class="single-sidebar-widget tag-cloud-widget t-center fw-300">
+                        <h4 class="widget-title">Liste des etiquettes</h4>
+                        <ul class="list">
+                            <li><a href="#">TECHNOLOGIES </a></li>
+                            <li><a href="#">HTML ET CSS</a></li>
+                            <li><a href="#">JAVA SCRIPT</a></li>
+                            <li><a href="#">JAVA EE</a></li>
+                            <li><a href="#">PYTHON</a></li>
+                            <li><a href="#">PHP</a></li>
+                            <li><a href="#">LARAVEL</a></li>
+                            <li><a href="#">SYMPHONY</a></li>
+                            <li><a href="#">REACT</a></li>
+                            <li><a href="#">CONCEPTION GRAPHIQUE</a></li>
+                            <li><a href="#"> KALI LINUX</a></li>
+                            <li><a href="#">NODE JS</a> </li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--Footer-->
     <footer class="footer  py-70 bg-bw" id="footer">
         <div class="container">
@@ -89,7 +223,7 @@
                 <div class="footer-block f-links px-15">
                     <ul>
                         <li><a href="#">A propos de nous</a></li>
-                        <li><a href="#">Nous contacter</a></li>
+                        <li><a href="contact.html">Nous contacter</a></li>
                         <li><a href="#">Politique de confidentialite</a></li>
                     </ul>
                 </div>

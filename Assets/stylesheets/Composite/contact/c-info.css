@@ -1,28 +1,27 @@
 /*
-Error: Undefined variable: "$princi".
-        on line 8 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/banner/banner.scss
+Error: Undefined variable: "$md".
+        on line 5 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/contact/c-info.scss
 
-3:     background: linear-gradient(to bottom, rgba(#000, .75) 75%, rgba(#fff, .4) ), url("../imgs/banner/img2.webp") no-repeat top;
-4:     background: cover;
-5:     background-position: top;
-6:     background-repeat: no-repeat;
-7:     text-align: center;
-8:     border-top: 0.5rem solid  $princi;
-9: 
-10:     &.single-banner{
-11:         background: linear-gradient(to bottom, rgba(#000, .75) 75%, rgba(#fff, .4) ), url("../imgs/ima5.webp") no-repeat center;
-12:         height: 200px;
-13:         -webkit-background-size:cover;
+1: .c-info{
+2:     width: 33%;
+3:     flex: 0 0 33%;
+4: 
+5:     @media(max-width:$md){
+6:         width: 100%;
+7:         flex: 0 0 100%;
+8:     }
+9:     .info-item{
+10:         margin-bottom: 1rem;
 
 Backtrace:
-C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/banner/banner.scss:8
+C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/contact/c-info.scss:5
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/list_literal.rb:63:in `map'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/list_literal.rb:63:in `_perform'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:543:in `block in run_interp_no_strip'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:541:in `map'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:541:in `run_interp_no_strip'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:548:in `run_interp'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:513:in `visit_media'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
@@ -71,4 +70,4 @@ C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$princi\".\A         on line 8 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/banner/banner.scss\A \A 3:     background: linear-gradient(to bottom, rgba(#000, .75) 75%, rgba(#fff, .4) ), url(\"../imgs/banner/img2.webp\") no-repeat top;\A 4:     background: cover;\A 5:     background-position: top;\A 6:     background-repeat: no-repeat;\A 7:     text-align: center;\A 8:     border-top: 0.5rem solid  $princi;\A 9: \A 10:     &.single-banner{\A 11:         background: linear-gradient(to bottom, rgba(#000, .75) 75%, rgba(#fff, .4) ), url(\"../imgs/ima5.webp\") no-repeat center;\A 12:         height: 200px;\A 13:         -webkit-background-size:cover;"; }
+  content: "Error: Undefined variable: \"$md\".\A         on line 5 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/contact/c-info.scss\A \A 1: .c-info{\A 2:     width: 33%;\A 3:     flex: 0 0 33%;\A 4: \A 5:     @media(max-width:$md){\A 6:         width: 100%;\A 7:         flex: 0 0 100%;\A 8:     }\A 9:     .info-item{\A 10:         margin-bottom: 1rem;"; }

@@ -1,0 +1,42 @@
+.comment-form{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 45px 30px;
+    background-color: rgba(243, 252, 255, .54);
+    text-align: center;
+    border: 1px solid #eee;
+
+
+    h4{
+        margin-bottom: 50px;
+        font-size: 1.2rem;
+    }
+    .form-inline{
+        .form-group{
+            margin-bottom: 1rem;
+            width: 50%;
+            padding-right: 1rem;
+        }
+    }
+
+    .form-control{
+        width: 100%;
+        padding: 8px 20px;
+        font-size: 14px;
+        color: $font-color;
+        background-color: $white;
+        border: 1px solid transparent;
+        transition: .25s ease;
+
+        &:hover, &:focus{
+            border-color: transparentize($color: $princi, $amount: .75);
+        }
+        &:focus{
+            box-shadow: 1px 1px 3px transparentize($color:$princi, $amount: .4);
+        }
+    }
+    textarea.form-control{
+        height: auto;
+        resize: none;
+    }
+}

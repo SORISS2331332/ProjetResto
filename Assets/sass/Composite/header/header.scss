@@ -88,13 +88,14 @@ header.header {
             .nav-item{
                 margin-left: 1rem;
                 list-style-type: none;
+                color: $sec-col;
                 @media(max-width:$md){
                     margin-bottom: 1rem;
                 }
 
                 .nav-link{
                     padding: 0.35rem .75rem ;
-                    font-size: 1rem;
+                    font-size: 1.5rem;
                     font-family: "Sofia Sans Extra Condensed";
                     line-height: 2;
                     color: inherit;
@@ -157,11 +158,13 @@ header.header {
                         transition: all .3s ease-in;
                 }
                 a.nav-linka{
+                    font-size: 1.2rem;
                     display: block;
                     width: 100%;
                     transition: color .25s ease-in;
+                    color: $sec-col;
                     &:hover,&:active,&.active,&.hover{
-                        color: $sec-col;
+                        color: blue;
                         border-bottom-color: transparent;
                     }
                 }

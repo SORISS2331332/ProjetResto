@@ -1,10 +1,9 @@
 .blog-intro{
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: 300;
 }
 .blog-category{
-    margin-bottom: 500px;
     .blog-wrappper{
         justify-content: space-around;
         align-items: center;
@@ -12,9 +11,15 @@
     .category-post{
         position: relative;
         width: 33%;
-        flex: 0 0 30%;
+        flex: 0 0 33%;
         text-align: center;
         cursor: pointer;
+
+        @media(max-width: $md){
+            width: 100%;
+            flex: 0 0 100%;
+            margin: 1rem 0;
+        }
 
         &:hover{
             .category-details{
@@ -60,3 +65,5 @@
         }
     }
 }
+
+@import "blog-area.scss"

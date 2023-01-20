@@ -1,0 +1,27 @@
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.input-group {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.form-control {
+    position: relative;
+    display: block;
+    line-height: 2;
+    height: calc(2.25rem + 2px);
+    outline: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
