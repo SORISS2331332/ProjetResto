@@ -1,19 +1,20 @@
 /*
 Error: Undefined variable: "$md".
         on line 5 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/contact/c-info.scss
-        from line 5 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/contact/contact.scss
+        from line 6 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/contact/contact.scss
 
 1: .contact-info{
-2:     align-items: center;
-3:     min-height: 500px;
-4: 
-5:     @import "c-info.scss";
-6:     @import "c-form.scss";
-7: }
+2:     margin-bottom: 25%;
+3:     align-items: center;
+4:     min-height: 500px;
+5: 
+6:     @import "c-info.scss";
+7:     @import "c-form.scss";
+8: }
 
 Backtrace:
 C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/contact/c-info.scss:5
-C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/contact/contact.scss:5
+C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/contact/contact.scss:6
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:543:in `block in run_interp_no_strip'
@@ -93,4 +94,4 @@ C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$md\".\A         on line 5 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/contact/c-info.scss\A         from line 5 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/contact/contact.scss\A \A 1: .contact-info{\A 2:     align-items: center;\A 3:     min-height: 500px;\A 4: \A 5:     @import \"c-info.scss\";\A 6:     @import \"c-form.scss\";\A 7: }"; }
+  content: "Error: Undefined variable: \"$md\".\A         on line 5 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/contact/c-info.scss\A         from line 6 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/contact/contact.scss\A \A 1: .contact-info{\A 2:     margin-bottom: 25%;\A 3:     align-items: center;\A 4:     min-height: 500px;\A 5: \A 6:     @import \"c-info.scss\";\A 7:     @import \"c-form.scss\";\A 8: }"; }

@@ -236,6 +236,11 @@ ul, ol, li, dl {
   user-select: none;
   text-decoration: none;
 }
+.btn:hover {
+  background-color: transparent;
+  border-color: #ec650b;
+  color: #ec650b;
+}
 
 .px-15 {
   padding-left: 15px;
@@ -646,7 +651,7 @@ header.header nav.navigation .nav-links .nav-item.submenu a.nav-linka:hover, hea
 }
 
 .articles .articles-container {
-  margin-bottom: 700px;
+  margin-bottom: 25%;
 }
 .articles .articles-container article {
   width: 50%;
@@ -740,7 +745,7 @@ header.header nav.navigation .nav-links .nav-item.submenu a.nav-linka:hover, hea
 
 .blog-area {
   font-size: 1.3rem;
-  margin-bottom: 30%;
+  margin-bottom: 20%;
 }
 .blog-area.single-post-area .post-elt {
   width: 67%;
@@ -1171,6 +1176,7 @@ header.header nav.navigation .nav-links .nav-item.submenu a.nav-linka:hover, hea
 }
 
 .contact-info {
+  margin-bottom: 25%;
   align-items: center;
   min-height: 500px;
 }
@@ -1236,6 +1242,11 @@ header.header nav.navigation .nav-links .nav-item.submenu a.nav-linka:hover, hea
 .contact-info .c-form .button-col {
   width: 100%;
   text-align: right;
+}
+.contact-info .c-form .button-col .btn:hover {
+  background-color: transparent;
+  border-color: #ec650b;
+  color: #ec650b;
 }
 
 .footer {

@@ -145,7 +145,14 @@ ul,ol,li,dl{
     border: 1px solid transparent;
     outline: none;
     user-select: none;
-    text-decoration: none;}
+    text-decoration: none;
+
+    &:hover{
+        background-color: transparent;
+        border-color: $princi;
+        color: $princi;
+    }
+}
 .px-15{
     padding-left: 15px;
     padding-right: 15px;

@@ -2,7 +2,7 @@
 Error: Undefined variable: "$md".
         on line 9 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/articles/article.scss
 
-4:         margin-bottom: 700px;
+4:         margin-bottom: 25%;
 5:         article{
 6:             width: 50%;
 7:             flex: 0 0 50%;
@@ -93,4 +93,4 @@ C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$md\".\A         on line 9 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/articles/article.scss\A \A 4:         margin-bottom: 700px;\A 5:         article{\A 6:             width: 50%;\A 7:             flex: 0 0 50%;\A 8: \A 9:             @media(max-width:$md){\A 10:                 width: 100%;\A 11:                 flex: 0 0 100%;\A 12:                 margin-bottom: 2rem;\A 13:                 padding-bottom: 2rem;\A 14:                 border-bottom: 1px solid transparentize($sec-col, .25);"; }
+  content: "Error: Undefined variable: \"$md\".\A         on line 9 of C:/Z_Dev_Web/HTML-CSS/Formation/Assets/sass/Composite/articles/article.scss\A \A 4:         margin-bottom: 25%;\A 5:         article{\A 6:             width: 50%;\A 7:             flex: 0 0 50%;\A 8: \A 9:             @media(max-width:$md){\A 10:                 width: 100%;\A 11:                 flex: 0 0 100%;\A 12:                 margin-bottom: 2rem;\A 13:                 padding-bottom: 2rem;\A 14:                 border-bottom: 1px solid transparentize($sec-col, .25);"; }

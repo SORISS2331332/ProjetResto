@@ -38,5 +38,13 @@
     .button-col{
         width: 100%;
         text-align: right;
+
+        .btn{
+            &:hover{
+                background-color: transparent;
+                border-color: $princi;
+                color: $princi;
+            }
+        }
     }
 }
